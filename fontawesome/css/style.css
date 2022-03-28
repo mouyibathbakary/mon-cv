@@ -1,0 +1,94 @@
+body{
+    margin: 0px 300px;
+    font-size: 35px;
+    
+}
+.head
+{
+    background-color: #593325;
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows:repeat(4,75px) ;
+    height: 500px;
+    color: rgb(207, 211, 216);
+    
+}
+.left
+{
+    background-color: #c7c5c5;
+}
+.right
+{
+    grid-column: span 2;
+   background-color :#f2f2f2;; 
+   justify-content: first baseline;
+   
+
+}
+.piture
+{
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 100px;
+}  
+
+.adress
+{
+    font-size: 50px;
+    
+    display: inline-block;
+    margin: 80px auto !important;
+    justify-content: center;
+    
+}
+section
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1,2500px);
+    height: 2500px;   
+}
+.competence
+{
+    color:rgb(20, 16, 85) ;
+    text-decoration: underline;
+}
+.information
+{
+color: rgb(207, 63, 44) ;
+text-decoration: underline rgb(207, 63, 44);
+margin-left: 15px;
+
+}
+h2,h4
+{
+    margin-left: 20px;
+}
+h1
+{
+    margin-left: 30px;
+}
+h3
+{
+    margin-left: 15px;
+    font-size: 45px;
+}
+p{
+    margin-left: 10px;
+    font-size: 50px;
+}
+.info
+{
+    color: rgb(180, 155, 12);
+    text-decoration: underline rgb(214, 124, 7) ;
+    
+}
+.other
+{
+    color: rgb(86, 112, 196);
+}
+ul
+{
+    margin-left: 10px;
+    font-size: 50px;
+}
